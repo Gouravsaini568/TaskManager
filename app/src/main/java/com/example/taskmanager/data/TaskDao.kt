@@ -5,6 +5,8 @@ import kotlinx.coroutines.flow.Flow
 
 @Dao
 interface TaskDao {
+    // Your TaskDao handles all the CRUD (Create, Read, Update, Delete) operations for the tasks table.
+// interface that defines how you interact with your data SQL to kotlin intraction
 
     @Insert
     suspend fun insert(task: TaskEntity)

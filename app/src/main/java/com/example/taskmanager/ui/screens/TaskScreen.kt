@@ -84,7 +84,7 @@ fun TaskScreen(navController: NavController, viewModel: TaskViewModel) {
             modifier = Modifier
                 .padding(padding)
                 .fillMaxSize()
-        ) {
+        ){
             ScrollableTabRow(
                 selectedTabIndex = tabs.indexOf(selectedTab),
                 containerColor = Color(0xFFF1F2F6),
